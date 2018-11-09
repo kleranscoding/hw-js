@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Questrial', sans-serif;
+}
+
+.container {
+  background-image: url(../imgs/race-bg0.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  background-image: url(../imgs/race-flag.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+
+#emojiDir {
+  float: left;
+  background-color: khaki;
+}
+
+#oreoDir {
+  float: right;
+  background-color: #15b5ff;
+}
+
+h1 {
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+img {
+  display: block;
+}
+
+input {
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 25px;
+  color: #234234;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+#startRace {
+  background-color: #00d9ff;
+}
+
+#resetRace {
+  background-color: #ffee00;
+}
+
+.grid { 
+  position: relative;
+}
+
+#emoji { 
+  position: relative; 
+  left: 0px;
+  width: 10%;
+  top: 50px;
+  border-radius: 50%;
+}
+
+#oreo {
+  position: relative;
+  left: 0px;
+  width: 10%;
+  top: 150px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  input {
+    width: 150px;
+  }
+}
